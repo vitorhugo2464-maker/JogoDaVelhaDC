@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#0b4fa8"/>
+  <path d="M28 40H172V92Q172 135 100 184Q28 135 28 92Z" fill="#f7d117"/>
+  <path d="M38 50H162V92Q162 128 100 172Q38 128 38 92Z" fill="#d6101e"/>
+  <text x="100" y="128" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="96" font-weight="900" fill="#f7d117" stroke="#f7d117" stroke-width="2">S</text>
+</svg>

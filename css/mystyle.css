@@ -1,0 +1,107 @@
+/* Cores do projeto (tema DC: Batman vs Superman) */
+:root {
+  --cor-main: rgb(11, 79, 168);
+  --cor-fonte: rgb(255 255 255);
+  --cor-vitoria: rgb(247, 209, 23);
+}
+
+/* Reset do navegador */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Barra de navegação */
+.bg-cor-que-eu-quero {
+  background: var(--cor-main);
+}
+
+.navbar-brand,
+.navbar-nav a {
+  color: var(--cor-fonte);
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* Container principal */
+#container-top {
+  margin-top: 5rem;
+}
+
+#titulo {
+  margin-top: 1rem;
+}
+
+/* Tabuleiro */
+.tabuleiro {
+  width: 27rem;
+  height: 27rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.celula {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 8rem;
+  height: 8rem;
+  margin: .5rem;
+  background: rgb(230, 230, 230);
+  box-shadow: .25rem .25rem rgba(0, 0, 0, .3);
+}
+
+.celula img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Célula que ganhou o jogo */
+.celula.vitoria {
+  background: var(--cor-vitoria);
+}
+
+/* Slider (galeria) */
+#slider {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+  bottom: 1em;
+}
+
+#slider .btn {
+  padding: 0.3em 0.7em;
+  margin-top: 1em;
+}
+
+/* Ícones do card */
+.card i {
+  font-size: 1.8rem;
+  margin: .125em;
+}
+
+/* Páginas internas (pasta pages) */
+.pagina {
+  padding-bottom: 2rem;
+}
+
+.pagina img.heroi {
+  width: 5rem;
+  height: 5rem;
+  border-radius: .5rem;
+}
+
+/* Ícone dentro de botões */
+.btn i {
+  font-size: 1rem;
+  margin: 0 .25rem 0 0;
+}

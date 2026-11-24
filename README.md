@@ -1,1 +1,2 @@
-# JogoDaVelhaDC
+# JogoDaVelha
+jogo da velha JS
